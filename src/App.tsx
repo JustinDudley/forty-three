@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="App" /* for CSS */>
+      <header className="Who-i-am" /* for CSS */>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Justin Dudley, 
+          43quintillionaire
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://pure-beach-45405.herokuapp.com/"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
+        > My other website is a...        
         </a>
       </header>
     </div>
-  );
-}
+    )
+};
+  
 
 export default App;
